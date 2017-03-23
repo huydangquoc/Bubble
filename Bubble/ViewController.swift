@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  var bubbleAnimationView: BubbleAnimationView?
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +21,20 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
+  // MARK: Private Methods
+  
+  func addBuubleAnimationView() {
+    bubbleAnimationView?.removeFromSuperview()
+    bubbleAnimationView = nil
+    bubbleAnimationView = BubbleAnimationView(frame: self.view.frame)
+    view.addSubview(self.bubbleAnimationView!)
+    bubbleAnimationView?.animateBuubleViews()
+  }
+  
+  // MARK: IBAction
+  
+  @IBAction func startButtonPressed(_ sender: UIBarButtonItem) {
+    addBuubleAnimationView()
+  }
 
 }
-

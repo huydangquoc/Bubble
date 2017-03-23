@@ -12,6 +12,9 @@
 		6B02FF341E83AF0500FA5F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B02FF321E83AF0500FA5F1A /* Main.storyboard */; };
 		6B02FF361E83AF0500FA5F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B02FF351E83AF0500FA5F1A /* Assets.xcassets */; };
 		6B02FF391E83AF0500FA5F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B02FF371E83AF0500FA5F1A /* LaunchScreen.storyboard */; };
+		6B02FF411E83BC0D00FA5F1A /* BubbleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B02FF401E83BC0D00FA5F1A /* BubbleInfo.swift */; };
+		6B02FF431E83BD6400FA5F1A /* BubbleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B02FF421E83BD6400FA5F1A /* BubbleConfig.swift */; };
+		6B02FF451E83C2D300FA5F1A /* BubbleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B02FF441E83C2D300FA5F1A /* BubbleAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		6B02FF351E83AF0500FA5F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B02FF381E83AF0500FA5F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B02FF3A1E83AF0500FA5F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B02FF401E83BC0D00FA5F1A /* BubbleInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleInfo.swift; sourceTree = "<group>"; };
+		6B02FF421E83BD6400FA5F1A /* BubbleConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleConfig.swift; sourceTree = "<group>"; };
+		6B02FF441E83C2D300FA5F1A /* BubbleAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				6B02FF351E83AF0500FA5F1A /* Assets.xcassets */,
 				6B02FF371E83AF0500FA5F1A /* LaunchScreen.storyboard */,
 				6B02FF3A1E83AF0500FA5F1A /* Info.plist */,
+				6B02FF401E83BC0D00FA5F1A /* BubbleInfo.swift */,
+				6B02FF421E83BD6400FA5F1A /* BubbleConfig.swift */,
+				6B02FF441E83C2D300FA5F1A /* BubbleAnimationView.swift */,
 			);
 			path = Bubble;
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					6B02FF2A1E83AF0400FA5F1A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8KDJ9PT669;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +148,9 @@
 			files = (
 				6B02FF311E83AF0500FA5F1A /* ViewController.swift in Sources */,
 				6B02FF2F1E83AF0500FA5F1A /* AppDelegate.swift in Sources */,
+				6B02FF411E83BC0D00FA5F1A /* BubbleInfo.swift in Sources */,
+				6B02FF451E83C2D300FA5F1A /* BubbleAnimationView.swift in Sources */,
+				6B02FF431E83BD6400FA5F1A /* BubbleConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KDJ9PT669;
 				INFOPLIST_FILE = Bubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = huy.dang.quoc.Bubble;
@@ -270,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KDJ9PT669;
 				INFOPLIST_FILE = Bubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = huy.dang.quoc.Bubble;
